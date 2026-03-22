@@ -1,0 +1,96 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Pérola</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h2>Pérola</h2>
+  <nav>
+    <a onclick="irPara('sobre')">Sobre</a>
+    <a onclick="irPara('gostos')">Gostos</a>
+    <a onclick="irPara('fotos')">Fotos</a>
+    <a onclick="irPara('momentos')">Momentos</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Uma pessoa interessante 👀</h1>
+  <p>Projeto em desenvolvimento… mas já posso dizer que vale a pena continuar</p>
+  <button onclick="irPara('sobre')">Explorar</button>
+</section>
+
+<section id="sobre">
+  <h2>Sobre ela</h2>
+  <div class="grid">
+    <div class="card">Prefere ficar em casa 🏠</div>
+    <div class="card">Gosta de cozinhar 🍫</div>
+    <div class="card">Escuta música sempre 🎧</div>
+  </div>
+</section>
+
+<section id="gostos">
+  <h2>Gostos</h2>
+  <div class="grid">
+    <div class="card">K-pop (Stray Kids)</div>
+    <div class="card">Pagode também 👀</div>
+    <div class="card">Séries e coisas aleatórias</div>
+  </div>
+</section>
+
+<section id="fotos">
+  <h2>Galeria</h2>
+  <div class="grid">
+    <img src="fotos/mnhvd1.png" class="foto">
+    <img src="fotos/mhvd2.png" class="foto">
+    <img src="fotos/mhvd3.png" class="foto">
+  </div>
+</section>
+
+<section id="experimentos">
+  <h2>Experimentos</h2>
+  <div class="grid">
+    <div class="card">🍫 Brownie: pendente</div>
+    <div class="card">🎧 Música: aprovado</div>
+    <div class="card">💬 Conversa: viciante</div>
+  </div>
+</section>
+
+<section id="momentos">
+  <h2>Momentos</h2>
+  <div class="grid">
+    <div class="card">Diz que cozinha bem 😌</div>
+    <div class="card">Quase me fez gostar de K-pop</div>
+    <div class="card">Perigo: vicia em conversa</div>
+  </div>
+
+  <button onclick="mostrarMensagem()">Segredo</button>
+  <p id="msg" class="msg">Acho que já estou viciado 👀</p>
+</section>
+
+<section>
+  <h2>Avaliação</h2>
+  <div class="grid">
+    <div class="card">Nota: 9/10</div>
+    <div class="card">Ponto forte: personalidade</div>
+    <div class="card">Risco: gostar demais</div>
+  </div>
+
+  <button onclick="avaliar()">Avaliar</button>
+  <p id="avaliacao"></p>
+</section>
+
+<footer>
+  <p>Projeto em andamento...</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+```
