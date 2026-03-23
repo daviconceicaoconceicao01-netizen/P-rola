@@ -122,3 +122,34 @@ footer {
   padding: 15px;
   opacity: 0.6;
 }
+
+.foto-principal {
+    width: 80%;        /* diminui a largura */
+    max-width: 600px;  /* limita o tamanho máximo */
+    height: auto;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;    /* centraliza */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.hero h1 {
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    
+    background: linear-gradient(90deg, #ff4d6d, #c77dff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    text-shadow: 0 0 10px rgba(199,125,255,0.4);
+}
+
+.hero {
+    padding: 40px 20px; /* antes devia estar maior */
+}
