@@ -13,7 +13,7 @@ function avaliar() {
     "Perigosa 👀",
     "Engraçada demais",
     "Tem bom gosto",
-    "Aprovada com sucesso",
+    "uma Pérola",
     "Perfeita",
     "linda",
   ];
