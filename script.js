@@ -13,7 +13,9 @@ function avaliar() {
     "Perigosa 👀",
     "Engraçada demais",
     "Tem bom gosto",
-    "Aprovada com sucesso"
+    "Aprovada com sucesso",
+    "Perfeita",
+    "linda",
   ];
 
   const aleatorio = frases[Math.floor(Math.random() * frases.length)];
